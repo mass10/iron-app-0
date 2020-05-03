@@ -9,3 +9,6 @@ edition = "2018"
 [dependencies]
 iron = "*"
 router = "*"
+chrono = "*"
+serde = "*"
+serde_json = "*"
