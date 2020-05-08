@@ -12,7 +12,9 @@ use serde_json::json;
 /// とあるオブジェクトの定義
 #[derive(Debug)]
 struct MyUserObject1 {
+	/// 氏名
 	name: String,
+	/// 住所
 	address: String,
 }
 
