@@ -1,5 +1,3 @@
-pub struct Application;
-
 extern crate chrono;
 extern crate iron;
 extern crate serde_json;
@@ -36,6 +34,8 @@ fn unknown_to_json(unknown: &MyUserObject1) -> String {
 	super::mylib::util::Util::get_current_timestamp();
 	return format!("{}", value);
 }
+
+pub struct Application;
 
 /// アプリケーションクラス
 impl Application {
